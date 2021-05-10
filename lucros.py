@@ -63,9 +63,9 @@ def apresentar_valores(gasto,total,lucro):
     list_lucro = list(int_lucro)
     lucro_total = sum(list_lucro)
 
-    print('O valor recebido ao vender: ',total_total)
-    print('O valor gasto para comprar: ',gasto_total)
-    print('O seu lucro foi: ',lucro_total)
+    print(f'O valor recebido ao vender: {total_total} ')
+    print(f'O valor gasto para comprar: {gasto_total}')
+    print(f'O seu lucro foi: {lucro_total}')
 
 calculo()
 apresentar_valores(Gasto,Total,Lucro)
